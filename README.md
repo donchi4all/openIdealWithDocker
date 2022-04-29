@@ -30,10 +30,9 @@ If the verison is composer 1 run `$ composer self-update` or `$composer self-upd
 Once the command has finishd executing, the `web` directory will hold all the necessary files to run OpenideaL. Proceed to installation of the site(s).
 
 If you run into a `Fatal error: Allowed memory size of xxxxxxxx bytes exhausted`, try running the above command like this:
-
-```
+`
 COMPOSER_MEMORY_LIMIT=-1 composer install
-```
+`
 
 #### Troubleshooting
 
