@@ -32,7 +32,7 @@ Once the command has finishd executing, the `web` directory will hold all the ne
 If you run into a `Fatal error: Allowed memory size of xxxxxxxx bytes exhausted`, try running the above command like this:
 
 ```
-COMPOSER_MEMORY_LIMIT=-1 composer create-project linnovate/openideal-composer openideal
+COMPOSER_MEMORY_LIMIT=-1 composer install
 ```
 
 #### Troubleshooting
