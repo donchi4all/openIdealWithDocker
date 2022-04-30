@@ -13,14 +13,13 @@ If the verison is composer 1 run `$ composer self-update` or `$composer self-upd
 2. `$ cd web` and run `$ composer install`
 3. Go back to the root foleder by running `$ cd ../`
 4. copy .env.example to .env ( for terminal `$ cp .env.example .env`) and set db information
-   ```  PROJECT_NAME=openideal
+   ``  PROJECT_NAME=openideal
         PROJECT_BASE_URL=openideal.docker.localhost
         DB_NAME=openideal
 
         MARIADB_TAG=10.7-3.19.0 // You can use any version of mariadb
         PHP_TAG=7.4-dev-4.36.0
-        NGINX_VHOST_PRESET=drupal8
-```
+        NGINX_VHOST_PRESET=drupal8``
 5. On the root folder Pulling/starting all containers by doing `$ make`
 6. Enter the PHP container by doing `$ make shell`
 7. `$ cd web`
