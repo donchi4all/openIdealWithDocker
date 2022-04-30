@@ -1,11 +1,10 @@
 # Quick start
 
 ## Requirement
-[composer](https://getcomposer.org/)
-Use composer 2
-Note: use `$ composer -v` to get the version of composer.
-If the verison is composer 1 run `$ composer self-update` or `$composer self-update --2`
-[install Docker](https://docs.docker.com/)
+1. Use composer 2 [composer](https://getcomposer.org/)
+  Note: use `$ composer -v` to get the version of composer.
+  If the verison is composer 1 run `$ composer self-update` or `$composer self-update --2`
+2. [install Docker](https://docs.docker.com/)
 
 ## Steps
 
